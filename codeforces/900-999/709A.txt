@@ -1,0 +1,37 @@
+// Problem: A - Juicer
+// Platform: codeforces
+// Contest: Contest-709
+// Rating/Difficulty: 900
+// Language: unknown
+// URL: https://codeforces.com/contest/709/submission/360893641
+// Solved on: 2026-07-04T15:12:51.309Z
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n, b, d;
+    cin >> n >> b >> d;
+
+    int waste = 0;
+    int ans = 0;
+
+    for (int i = 0; i < n; i++) {
+        int a;
+        cin >> a;
+
+        if (a > b) continue;     
+        waste += a;
+
+        if (waste > d) {
+            ans++;
+            waste = 0;         
+        }
+    }
+
+    cout << ans << "\n";
+    return 0;
+}
