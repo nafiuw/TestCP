@@ -1,0 +1,48 @@
+// Problem: D - Line
+// Platform: codeforces
+// Contest: Contest-1722
+// Rating/Difficulty: 1100
+// Language: unknown
+// URL: https://codeforces.com/contest/1722/submission/381233085
+// Solved on: 2026-07-04T11:59:48.632Z
+
+    #include<bits/stdc++.h>
+    using namespace std;
+    #define ll long long
+    int main()
+    {
+        int t; cin>>t; //avneth
+        while(t--)
+        {
+           int n;
+           cin>>n;
+           string s; cin>>s;
+           vector<ll>v; ll b=0;
+           for(int i=0; i<n; i++)
+           {
+            if(s[i]=='L'){
+            b+=i;
+            v.push_back((n-1-i)-i);
+            } else {
+                b+=(n-1-i);
+                v.push_back(i-(n-1-i));
+            }
+           }
+           sort(v.rbegin(),v.rend());
+           vector<ll>tmp(n);
+           ll sum=b;
+           ll idx =0;
+           for(int i=0; i<n; i++)
+           {
+            if(idx<n && v[idx]>0){
+                sum+=v[idx];
+                idx++;
+            }
+            tmp[i]=sum;
+           }
+           for (auto x : tmp)
+           cout<<x<<" ";
+           cout<<'\n';
+        }
+        return 0;
+    }
