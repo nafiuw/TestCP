@@ -1,0 +1,8 @@
+// Problem: A - Case of the Zeros and Ones
+// Platform: codeforces
+// Contest: Contest-556
+// Language: unknown
+// URL: https://codeforces.com/contest/556/submission/359068243
+// Solved on: 2026-07-04T15:12:53.410Z
+
+// source not captured automatically — open the submission page and copy it manually
