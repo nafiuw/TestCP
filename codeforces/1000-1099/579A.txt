@@ -1,0 +1,18 @@
+// Problem: A - Raising Bacteria
+// Platform: codeforces
+// Contest: Contest-579
+// Rating/Difficulty: 1000
+// Language: unknown
+// URL: https://codeforces.com/contest/579/submission/381058766
+// Solved on: 2026-07-04T15:10:50.046Z
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int x;
+    cin >> x;
+
+    cout << __builtin_popcount(x) << endl;
+    return 0;
+}
