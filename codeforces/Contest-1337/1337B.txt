@@ -1,0 +1,8 @@
+// Problem: B - Kana and Dragon Quest game
+// Platform: codeforces
+// Contest: Contest-1337
+// Language: unknown
+// URL: https://codeforces.com/contest/1337/submission/364457169
+// Solved on: 2026-07-04T15:10:50.620Z
+
+// source not captured automatically — open the submission page and copy it manually
