@@ -1,0 +1,8 @@
+// Problem: A - Jagged Swaps
+// Platform: codeforces
+// Contest: Contest-1896
+// Language: unknown
+// URL: https://codeforces.com/contest/1896/submission/362193762
+// Solved on: 2026-07-04T15:10:51.458Z
+
+// source not captured automatically — open the submission page and copy it manually
