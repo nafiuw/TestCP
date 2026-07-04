@@ -1,0 +1,9 @@
+// Problem: A - Odd Set
+// Platform: codeforces
+// Contest: Contest-1542
+// Rating/Difficulty: 800
+// Language: unknown
+// URL: https://codeforces.com/contest/1542/submission/357336246
+// Solved on: 2026-07-04T15:12:51.808Z
+
+// source not captured automatically — open the submission page and copy it manually
