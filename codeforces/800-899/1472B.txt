@@ -1,0 +1,50 @@
+// Problem: B - Fair Division
+// Platform: codeforces
+// Contest: Contest-1472
+// Rating/Difficulty: 800
+// Language: unknown
+// URL: https://codeforces.com/contest/1472/submission/360763520
+// Solved on: 2026-07-04T15:12:51.311Z
+
+#include <bits/stdc++.h>
+using namespace std;
+
+#define fastio ios::sync_with_stdio(false); cin.tie(nullptr);
+
+void solve() {
+    int n;
+    cin >> n;
+
+    int cnt1 = 0, cnt2 = 0;
+    for (int i = 0; i < n; i++) {
+        int x;
+        cin >> x;
+        if (x == 1) cnt1++;
+        else cnt2++;
+    }
+
+    int total = cnt1 + 2 * cnt2;
+
+    if (total % 2 != 0) {
+        cout << "NO\n";
+        return;
+    }
+
+    int half = total / 2;
+
+    if (half % 2 == 1 && cnt1 == 0) {
+        cout << "NO\n";
+    } else {
+        cout << "YES\n";
+    }
+}
+
+int main() {
+    fastio
+    int t;
+    cin >> t;
+    while (t--) {
+        solve();
+    }
+    return 0;
+}
