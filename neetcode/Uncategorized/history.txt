@@ -1,0 +1,7 @@
+// Problem: Design Singly Linked List
+// Platform: neetcode
+// Language: LinkedList
+// URL: https://neetcode.io/problems/singlyLinkedList/history?submissionIndex=0
+// Solved on: 2026-07-09T07:39:24.746Z
+
+// source not captured automatically - copy it from the editor and use Manual Push
