@@ -2,6 +2,13 @@
 // Platform: hackerrank
 // Language: cpp
 // URL: https://www.hackerrank.com/challenges/cpp-hello-world/problem?isFullScreen=true
-// Solved on: 2026-07-09T08:17:42.172Z
+// Solved on: 2026-07-12T09:59:15.002Z
 
-// source not captured - copy it from the editor manually
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    printf("Hello, World!");
+    return 0;
+}
