@@ -2,6 +2,6 @@
 // Platform: codechef
 // Language: C++​
 // URL: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/DOUBLERENT
-// Solved on: 2026-07-12T09:50:54.560Z
+// Solved on: 2026-07-12T09:52:28.162Z
 
 2
