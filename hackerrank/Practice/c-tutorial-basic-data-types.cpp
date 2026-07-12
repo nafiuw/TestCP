@@ -2,7 +2,7 @@
 // Platform: hackerrank
 // Language: cpp
 // URL: https://www.hackerrank.com/challenges/c-tutorial-basic-data-types/problem?isFullScreen=true
-// Solved on: 2026-07-11T11:20:25.627Z
+// Solved on: 2026-07-12T09:57:56.517Z
 
 #include <bits/stdc++.h>
 using namespace std;
