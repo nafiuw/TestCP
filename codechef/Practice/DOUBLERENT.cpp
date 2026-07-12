@@ -2,6 +2,7 @@
 // Platform: codechef
 // Language: C++​
 // URL: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/DOUBLERENT
-// Solved on: 2026-07-12T09:52:28.162Z
+// Solved on: 2026-07-12T10:04:10.151Z
 
-2
+int x; cin>>x; cout<<(x*2);
+
