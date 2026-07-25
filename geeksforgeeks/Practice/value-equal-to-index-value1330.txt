@@ -3,6 +3,6 @@
 // Language: unknown
 // Verdict: Accepted
 // URL: https://www.geeksforgeeks.org/problems/value-equal-to-index-value1330/1?page=1&difficulty=Basic&sortBy=submissions
-// Solved on: 2026-07-25T09:53:30.038Z
+// Solved on: 2026-07-25T09:56:38.462Z
 
 // source not captured automatically - copy it from the editor and use Manual Push
