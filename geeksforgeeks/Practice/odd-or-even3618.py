@@ -3,7 +3,7 @@
 // Language: unknown
 // Verdict: Accepted
 // URL: https://www.geeksforgeeks.org/problems/odd-or-even3618/1?page=1&difficulty=Basic&sortBy=submissions
-// Solved on: 2026-07-25T09:41:22.066Z
+// Solved on: 2026-07-25T09:41:43.625Z
 
 class GfG {
 
