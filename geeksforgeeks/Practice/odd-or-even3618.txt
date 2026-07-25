@@ -1,0 +1,15 @@
+// Problem: Odd or Even | Practice
+// Platform: geeksforgeeks
+// Language: unknown
+// Verdict: Accepted
+// URL: https://www.geeksforgeeks.org/problems/odd-or-even3618/1?page=1&difficulty=Basic&sortBy=submissions
+// Solved on: 2026-07-25T09:42:38.537Z
+
+class Solution {
+  public:
+    bool isEven(int n) {
+        // code here
+        if(n%2==0) return true;
+        else return false;
+    }
+};
