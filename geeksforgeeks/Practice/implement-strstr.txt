@@ -1,0 +1,8 @@
+// Problem: First Occurence | Practice
+// Platform: geeksforgeeks
+// Language: unknown
+// Verdict: Accepted
+// URL: https://www.geeksforgeeks.org/problems/implement-strstr/1?page=1&difficulty=Basic&sortBy=submissions
+// Solved on: 2026-07-25T09:58:35.304Z
+
+// source not captured automatically - copy it from the editor and use Manual Push
