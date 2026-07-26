@@ -3,6 +3,6 @@
 // Language: unknown
 // Verdict: Accepted
 // URL: https://www.geeksforgeeks.org/problems/implement-strstr/1?page=1&difficulty=Basic&sortBy=submissions
-// Solved on: 2026-07-26T11:10:17.682Z
+// Solved on: 2026-07-26T11:20:05.611Z
 
 // source not captured automatically - copy it from the editor and use Manual Push
