@@ -3,6 +3,6 @@
 // Language: unknown
 // Verdict: Accepted
 // URL: https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?page=1&sortBy=submissions
-// Solved on: 2026-07-26T11:23:14.552Z
+// Solved on: 2026-07-26T11:24:19.376Z
 
 // source not captured automatically - copy it from the editor and use Manual Push
