@@ -1,8 +1,32 @@
-// Problem: most simple answer for humans to understand
+// Problem: Array Leaders
 // Platform: geeksforgeeks
 // Language: unknown
 // Verdict: Accepted
 // URL: https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?page=1&sortBy=submissions
-// Solved on: 2026-07-27T12:10:51.942Z
+// Solved on: 2026-07-28T07:46:16.492Z
 
-// source not captured automatically - copy it from the editor and use Manual Push
+class Solution {
+  public:
+    vector<int> leaders(vector<int>& arr) {
+        vector<int> result;
+        int n = arr.size();
+        
+        if (n == 0) {
+            return result;
+        }
+        
+        int max_right = arr[n - 1];
+        result.push_back(max_right);
+        
+        for (int i = n - 2; i >= 0; i--) {
+            if (arr[i] >= max_right) {
+                max_right = arr[i];
+                result.push_back(max_right);
+            }
+        }
+        
+        reverse(result.begin(), result.end());
+        
+        return result;
+    }
+};
